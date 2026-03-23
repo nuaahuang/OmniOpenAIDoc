@@ -1,1 +1,0 @@
-OmniSense is a developer tool designed to eliminate AI hallucinations in large-scale Java multi-module projects. It synchronizes API manifests from Maven artifacts to VS Code, providing a "Shadow Source" layer for AI models (like Cursor) to understand cross-module dependencies.

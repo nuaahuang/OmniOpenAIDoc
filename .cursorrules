@@ -1,0 +1,22 @@
+# [OmniSense Context Protocol: Open-Omni v1.0]
+
+# 1. CORE CONTEXT GUIDANCE
+- For any queries involving cross-module calls, secondary binary dependencies, or classes NOT currently open in the active editor, you MUST prioritize searching the `.omni/temp_sources/` directory.
+- Files in this directory are "Shadow Sources" deconstructed via the Open-Omni protocol, containing accurate API signatures and business logic comments for the current classpath.
+
+# 2. AUTHORITATIVE SOURCE OF TRUTH
+- Javadocs within `.omni/temp_sources/` are the SOLE Ground Truth.
+- If shadow files specify business constraints (e.g., "idempotency required," "non-null parameters," or "specific call sequences"), you MUST strictly adhere to these contracts when generating code.
+
+# 3. ELIMINATING API DRIFT
+- DO NOT hallucinate or guess API usage based on general pre-training knowledge.
+- If a signature in `.omni` conflicts with your internal memory, the `.omni` signature TAKES PRECEDENCE, as it represents the real-time contract of the current project version.
+
+# 4. SHADOW SOURCE NAVIGATION
+- Shadow Path Pattern: `.omni/temp_sources/{package_path}/{ClassName}.java`
+- These files contain ONLY public interfaces and semantic metadata. Use the provided business descriptions to infer implementation details and integration logic.
+
+# 5. ANTI-HALLUCINATION PROTOCOL
+- If a class or method cannot be located within the `.omni` directory, inform the user: "Target dependency not found in Omni Semantic Library. Please ensure `mvn omni:generate` has been executed."
+
+# [OmniSense Protocol End]
