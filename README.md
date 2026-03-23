@@ -1,8 +1,8 @@
-# OmniSense: Software Supply Chain 2.0 🚀
+# OmniOpenAIDoc: Software Supply Chain 2.0 🚀
 
 > **"Distribution is Documentation; Shipping is Semantics."** > **“发布即文档，分发即语义。”**
 
-OmniSense is a semantic distribution protocol designed to eliminate **API Drift** and **AI Hallucinations** in large-scale software engineering. It ensures that AI agents (like Cursor/Claude) always reason based on the precise, version-anchored metadata of your dependencies.
+OmniOpenAIDoc is a semantic distribution protocol designed to eliminate **API Drift** and **AI Hallucinations** in large-scale software engineering. It ensures that AI agents (like Cursor/Claude) always reason based on the precise, version-anchored metadata of your dependencies.
 
 ---
 
@@ -63,9 +63,9 @@ mvn clean compile
 ```
 
 ### 3. Synchronize with VS Code / Cursor
-Install the **OmniSense** extension and run the following command from the Command Palette (`Cmd+Shift+P`):
+Install the **OmniOpenAIDoc** extension and run the following command from the Command Palette (`Cmd+Shift+P`):
 
-> **OmniSense: Sync Semantic Context**
+> **OmniOpenAIDoc: Sync Semantic Context**
 
 This command will:
 * **Parse**: Read the aggregated JSON manifests from `.omni/manifests/`.
@@ -77,7 +77,7 @@ This command will:
 To keep your repository clean and prevent AI shadow files from being committed, ensure the `.omni` directory is ignored in your `.gitignore`:
 
 ```text
-# OmniSense Generated Content
+# OmniOpenAIDoc Generated Content
 .omni/
 ```
 

@@ -1,4 +1,4 @@
-# OmniSense: Software Supply Chain 2.0 — Semantic Distribution Protocol 🚀
+# OmniOpenAIDoc: Software Supply Chain 2.0 — Semantic Distribution Protocol 🚀
 
 > **"Distribution is Documentation; Shipping is Semantics."** — Ending API Drift and AI Hallucination in large-scale engineering.
 
@@ -8,7 +8,7 @@
 
 In traditional software development lifecycles, code is distributed via managers like Maven, PyPI, or NPM. However, binary artifacts (JAR/WHL) are "black boxes" to AI, forcing LLMs to rely on outdated external documentation or perform expensive, time-consuming source code indexing.
 
-**OmniSense introduces the concept of "Semantic Distribution":**
+**OmniOpenAIDoc introduces the concept of "Semantic Distribution":**
 We encapsulate API definitions, business logic comments, and call constraints directly into the software artifacts. This is more than just a tool—it is the **Open-Omni Protocol**, a semantic standard purpose-built for AI.
 
 * **Phase 1.0 (Binary Distribution)**: Solving runtime dependency management and code execution.
@@ -22,7 +22,7 @@ We encapsulate API definitions, business logic comments, and call constraints di
 * **Black-Box Dependencies**: In complex projects (19+ modules), AI cannot access Javadocs hidden inside internal JAR dependencies, leading to a "logic gap."
 * **Context Fragmentation**: Manually providing context to AI is inefficient and fails to guarantee a match with the specific code version currently in use.
 
-**OmniSense enables "Shipping as Documentation": As soon as a package is downloaded, the corresponding AI-native semantic manual is automatically in place.**
+**OmniOpenAIDoc enables "Shipping as Documentation": As soon as a package is downloaded, the corresponding AI-native semantic manual is automatically in place.**
 
 ---
 
@@ -64,7 +64,7 @@ Just as OpenAPI standardized Web API descriptions, **Open-Omni** defines the **S
 
 ### 📂 Repository Structure
 ```text
-OmniSense/
+OmniOpenAIDoc/
 ├── omni-maven-plugin        # Producer: Semantic Injector (Java/Maven)
 ├── omni-vscode-extension    # Consumer: Semantic Gateway (TS/VS Code)
 ├── omni-spec/               # Open-Omni Protocol Definition (SPEC_V1.md)

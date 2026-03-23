@@ -1,4 +1,4 @@
-# [OmniSense Context Protocol: Open-Omni v1.0]
+# [OmniOpenAIDoc Context Protocol: Open-Omni v1.0]
 
 # 1. CORE CONTEXT GUIDANCE
 - For any queries involving cross-module calls, secondary binary dependencies, or classes NOT currently open in the active editor, you MUST prioritize searching the `.omni/temp_sources/` directory.
@@ -19,4 +19,4 @@
 # 5. ANTI-HALLUCINATION PROTOCOL
 - If a class or method cannot be located within the `.omni` directory, inform the user: "Target dependency not found in Omni Semantic Library. Please ensure `mvn omni:generate` has been executed."
 
-# [OmniSense Protocol End]
+# [OmniOpenAIDoc Protocol End]

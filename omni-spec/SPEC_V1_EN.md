@@ -30,7 +30,7 @@ The manifest utilizes a **"Domain Aggregation"** structure, using the Class as t
 ### 3.1 Root Metadata
 | Field | Type | Required | Description |
 | :--- | :--- | :--- | :--- |
-| `protocol` | String | Yes | Protocol version identifier, fixed as `open-omni/1.0`. |
+| `protocol` | String | Yes | Protocol version identifier, fixed as `Open-Omni/1.0`. |
 | `module` | String | Yes | Unique module identifier (e.g., Maven ArtifactId). |
 | `version` | String | Yes | **Core Anchor**: The exact version of the current build. Used to prevent API Drift. |
 | `timestamp` | Long | No | Unix timestamp of generation, used for incremental sync logic. |
@@ -74,7 +74,7 @@ The manifest utilizes a **"Domain Aggregation"** structure, using the Class as t
 
 ```json
 {
-  "protocol": "open-omni/1.0",
+  "protocol": "Open-Omni/1.0",
   "module": "pc-account",
   "version": "1.0-SNAPSHOT",
   "timestamp": 1711110000000,

@@ -30,7 +30,7 @@
 ### 3.1 根节点元数据 (Root Metadata)
 | 字段 | 类型 | 必选 | 说明 |
 | :--- | :--- | :--- | :--- |
-| `protocol` | String | 是 | 协议版本标识，固定为 `open-omni/1.0` |
+| `protocol` | String | 是 | 协议版本标识，固定为 `Open-Omni/1.0` |
 | `module` | String | 是 | 模块唯一标识符 (Maven ArtifactId) |
 | `version` | String | 是 | **核心锚点**：当前构建的精确版本号。用于防止 API 漂移。 |
 | `timestamp` | Long | 否 | 生成时的 Unix 时间戳，用于增量同步判断。 |
@@ -74,7 +74,7 @@
 
 ```json
 {
-  "protocol": "open-omni/1.0",
+  "protocol": "Open-Omni/1.0",
   "module": "pc-account",
   "version": "1.0-SNAPSHOT",
   "timestamp": 1711110000000,

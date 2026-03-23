@@ -1,6 +1,6 @@
 {
-  "name": "OmniSense",
-  "displayName": "OmniSense",
+  "name": "OmniOpenAIDoc",
+  "displayName": "OmniOpenAIDoc",
   "description": "AI-Native Semantic Context Bridge for Java Libraries",
   "version": "1.0.0",
   "engines": {
@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "omnisense.sync",
-        "title": "OmniSense: Sync Semantic Context"
+        "command": "omniopendoc.sync",
+        "title": "OmniOpenAIDoc: Sync Semantic Context"
       }
     ]
   },

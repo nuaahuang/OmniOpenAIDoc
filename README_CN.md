@@ -1,4 +1,4 @@
-# OmniSense: 软件供应链 2.0 —— 语义化分发协议 🚀
+# OmniOpenAIDoc: 软件供应链 2.0 —— 语义化分发协议 🚀
 
 > **“发布即文档，分发即语义。”** —— 终结大型工程中的 API 漂移与 AI 幻觉。
 
@@ -8,7 +8,7 @@
 
 在传统的软件开发生命周期中，我们通过 Maven、PyPI 或 NPM 分发代码。然而，二进制包（JAR/WHL）对 AI 来说是“黑盒”，导致 AI 在辅助编程时不得不依赖过时的文档或极其耗时的源码扫描。
 
-**OmniSense 提出了“语义化分发 (Semantic Distribution)”的概念：**
+**OmniOpenAIDoc 提出了“语义化分发 (Semantic Distribution)”的概念：**
 我们将 API 的定义、业务注释和调用约束直接封装进软件产物中。这不仅仅是一个插件，它是一套 **面向 AI 的语义化协议 (Open-Omni Protocol)**。
 
 * **1.0 阶段 (二进制分发)**: 解决运行时的依赖管理与代码执行。
@@ -22,7 +22,7 @@
 * **黑盒依赖**：在 19+ 模块的复杂工程中，AI 无法读取二方库 JAR 包内部的 Javadoc，导致业务逻辑理解断层。
 * **上下文断层**：开发者手动为 AI 提供上下文效率极低，且难以保证与当前执行的代码版本匹配。
 
-**OmniSense 实现“发布即文档”：只要包被下载，对应的 AI 语义说明书就自动就位。**
+**OmniOpenAIDoc 实现“发布即文档”：只要包被下载，对应的 AI 语义说明书就自动就位。**
 
 ---
 
@@ -65,7 +65,7 @@ IDE 插件（VS Code Extension）充当 AI 的语义网关：
 ## 5. 项目结构与路线图
 
 ```text
-OmniSense/
+OmniOpenAIDoc/
 ├── omni-maven-plugin        # 生产端：语义注入器 (Java/Maven)
 ├── omni-vscode-extension    # 消费端：语义网关 (TS/VS Code)
 ├── omni-spec                # Open-Omni 协议规范定义
