@@ -1,0 +1,14 @@
+# Java/Maven
+target/
+*.class
+*.jar
+
+# VS Code / TypeScript
+node_modules/
+out/
+dist/
+*.vsix
+
+# OmniSense Runtime (关键：不要上传生成的影子代码)
+.omni/temp_sources/
+.omni/manifests/
