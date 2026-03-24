@@ -42,7 +42,7 @@ Traditional AI coding assistants struggle with **Binary Dependencies (JARs)**. T
 | :---: | :---: |
 | **AI is Blinded by Decompilation** | **AI Reads the "Soul" of the JAR** |
 | ![Traditional Blindness](./demo_video/output-no-extension.mp4.gif) | ![Semantic Awakening](./demo_video/output-use-extension.mp4.gif) |
-| *AI sees `var1`, `var2` and has no Javadoc.* | *AI sees `riskMultiplier` and full business context.* |
+| *AI doesn't know the funcion.* | *AI sees the function and know how to use the function.* |
 
 > **Key Difference:** Look at the right panel. Notice how Cursor uses the **`@omni-temp_sources`** provided by Omni to explain the **0.85 Risk Penalty Factor** for low-asset users. **This is no hallucination; it's ground-truth semantics.**
 
