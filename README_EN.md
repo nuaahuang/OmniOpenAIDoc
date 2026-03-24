@@ -78,10 +78,6 @@ OmniOpenAIDoc/
 * **Dynamic Language Semantics**: Leverage **LibCST** to parse Python `Type Hints` and `Docstrings`, solving reasoning gaps caused by Python's dynamic nature.
 * **Cross-Language Shadowing**: Universal VS Code extension support for generating `.py` shadow shells alongside `.java`.
 
-### 🟣 v2.0 - Semantic Hub & Intelligence (Vision)
-* **Omni-Hub**: A global semantic index registry. Enable AI plugins to fetch "Semantic Increments" on-demand via Maven/PyPI coordinates.
-* **CI/CD Integration**: Seamlessly publish semantic snapshots via GitHub Actions / GitLab CI to ensure "Semantics-at-Release."
-* **Architectural Guardrails**: Proactive warnings when AI detects logic conflicts or breaking changes between local code and the downloaded semantic specifications.
 
 ---
 > **"Let every package have a soul; let AI read the code that is no longer there."**

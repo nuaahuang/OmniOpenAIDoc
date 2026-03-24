@@ -1,4 +1,6 @@
-# OmniOpenAIDoc: Software Supply Chain 2.0 🚀
+# OmniOpenAIDoc: Software Supply Chain 2.0 🚀 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![Marketplace](https://img.shields.io/badge/Marketplace-OmniOpenAIDoc-brightgreen)](https://marketplace.visualstudio.com/items?itemName=derichuang.OmniOpenAIDoc)
+
 
 > **"Distribution is Documentation; Shipping is Semantics."** > **“发布即文档，分发即语义。”**
 
@@ -25,6 +27,24 @@ Please select your preferred language to view the project details and technical 
 * `omni-vscode-extension`: The Consumer (TS/VS Code) - Synchronizes semantics for AI.
 * `omni-spec/`: The Core Open-Omni Protocol definition.
 * `.cursorrules`: The AI Context Injection rules for IDEs.
+
+---
+
+---
+
+## ✨ The "Aha!" Moment (Why Omni?)
+
+Traditional AI coding assistants struggle with **Binary Dependencies (JARs)**. They see decompiled code, lose Javadoc, and guess business logic. **OmniOpenAIDoc bridges this gap.**
+
+### 🎬 Live Demonstration: Binary Logic Awakening
+
+| ❌ Without Omni (Traditional) | ✅ With Omni (Semantic Aware) |
+| :---: | :---: |
+| **AI is Blinded by Decompilation** | **AI Reads the "Soul" of the JAR** |
+| ![Traditional Blindness](./demo_video/output-no-extension.mp4.gif) | ![Semantic Awakening](./demo_video/output-use-extension.mp4.gif) |
+| *AI sees `var1`, `var2` and has no Javadoc.* | *AI sees `riskMultiplier` and full business context.* |
+
+> **Key Difference:** Look at the right panel. Notice how Cursor uses the **`@omni-temp_sources`** provided by Omni to explain the **0.85 Risk Penalty Factor** for low-asset users. **This is no hallucination; it's ground-truth semantics.**
 
 ---
 

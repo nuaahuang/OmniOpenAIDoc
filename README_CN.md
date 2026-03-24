@@ -79,10 +79,5 @@ OmniOpenAIDoc/
 * **动态语言语义提取**：利用 **LibCST** 解析 Python 的 `Type Hints` 与 `Docstrings`，解决 Python 动态特性带来的 AI 推理困境。
 * **跨语言影子映射**：VS Code 插件支持根据 `omni-manifest.json` 动态生成 `.py` 语义外壳。
 
-### 🟣 v2.0 - 语义分发中心 (Vision)
-* **Omni-Hub**：建立全球语义索引中心。支持 AI 插件根据 Maven 坐标或 PyPI 名称即时从云端下载“语义增量包”。
-* **流水线集成**：支持在 GitHub Actions / GitLab CI 中自动发布语义快照，确保“发布即语义”。
-* **智能冲突预警**：当 AI 检测到当前代码逻辑与下载的语义规范存在潜在冲突时，主动发出架构预警。
-
 ---
 > **“让每一个软件包都自带灵魂，让 AI 读懂每一行消失的源码。”**
